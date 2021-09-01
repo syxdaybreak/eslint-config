@@ -1,11 +1,9 @@
 {
 	"name": "@syxdaybreak/eslint-config",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "Seiyial <seiyial@seiyial.xyz>",
 	"description": "Opiniated configs for various setups; sets up the linting pretty well without the need for prettierJS.",
-	"scripts": {
-		"postinstall": "echo 'If you are using React, you\\'ll also need to run this:\\n   yarn add --dev -E eslint-plugin-react eslint-plugin-react-hooks'"
-	},
+	"scripts": {},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:syxdaybreak/eslint-config.git"
