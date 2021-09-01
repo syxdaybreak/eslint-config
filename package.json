@@ -1,6 +1,6 @@
 {
-	"name": "eslint-config",
-	"version": "1.0.0",
+	"name": "@syxdaybreak/eslint-config",
+	"version": "1.0.1",
 	"author": "Seiyial <seiyial@seiyial.xyz>",
 	"description": "Opiniated configs for various setups; sets up the linting pretty well without the need for prettierJS.",
 	"scripts": {
