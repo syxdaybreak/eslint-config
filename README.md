@@ -1,1 +1,1 @@
-# eslint-config
+# `@syx/eslint-config`

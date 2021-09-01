@@ -1,0 +1,22 @@
+{
+	"name": "eslint-config",
+	"version": "1.0.0",
+	"author": "Seiyial <seiyial@seiyial.xyz>",
+	"description": "Opiniated configs for various setups; sets up the linting pretty well without the need for prettierJS.",
+	"scripts": {
+		"postinstall": "echo 'If you are using React, you\\'ll also need to run this:\\n   yarn add --dev -E eslint-plugin-react eslint-plugin-react-hooks'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:syxdaybreak/eslint-config.git"
+	},
+	"keywords": ["eslint", "config"],
+	"license": "MIT",
+	"main": "index.js",
+	"devDependencies": {
+		"eslint": "7.32.0",
+		"@typescript-eslint/parser": "4.30.0",
+		"@typescript-eslint/eslint-plugin": "4.30.0",
+		"eslint-plugin-no-eslint-disable": "1.0.1"
+	}
+}
