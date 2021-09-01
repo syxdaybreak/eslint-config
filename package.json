@@ -3,7 +3,9 @@
 	"version": "1.0.2",
 	"author": "Seiyial <seiyial@seiyial.xyz>",
 	"description": "Opiniated configs for various setups; sets up the linting pretty well without the need for prettierJS.",
-	"scripts": {},
+	"scripts": {
+		"publish": "npm version patch --force && npm publish"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:syxdaybreak/eslint-config.git"
