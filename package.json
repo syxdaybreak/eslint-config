@@ -1,6 +1,6 @@
 {
 	"name": "@syxdaybreak/eslint-config",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"author": "Seiyial <seiyial@seiyial.xyz>",
 	"description": "Opiniated configs for various setups; sets up the linting pretty well without the need for prettierJS.",
 	"scripts": {
@@ -10,7 +10,10 @@
 		"type": "git",
 		"url": "git@github.com:syxdaybreak/eslint-config.git"
 	},
-	"keywords": ["eslint", "config"],
+	"keywords": [
+		"eslint",
+		"config"
+	],
 	"license": "MIT",
 	"main": "index.js",
 	"devDependencies": {
