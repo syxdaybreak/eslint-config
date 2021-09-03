@@ -78,8 +78,8 @@ module.exports = {
 		'@typescript-eslint/type-annotation-spacing': ['warn', {
 			after: true,
 			overrides: { arrow: { before: true, after: true } }
-		}]
-	'@typescript-eslint/member-delimiter-style': ['warn', {
+		}],
+		'@typescript-eslint/member-delimiter-style': ['warn', {
 			singleline: { requireLast: false, delimiter: 'comma' },
 			multiline: { requireLast: false, delimiter: 'comma' }
 		}]

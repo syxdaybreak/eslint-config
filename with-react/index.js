@@ -4,7 +4,6 @@ module.exports = {
 		"es6": true
 	},
 	"extends": [
-		"standard",
 		"plugin:react/recommended"
 	],
 	"globals": {
