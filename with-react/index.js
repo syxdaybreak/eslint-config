@@ -15,7 +15,7 @@ module.exports = {
 		"ecmaFeatures": {
 			"jsx": true
 		},
-		"ecmaVersion": 2018,
+		"ecmaVersion": 2020,
 		"sourceType": "module",
 		"project": "./tsconfig.eslint.json"
 	},
@@ -81,7 +81,6 @@ module.exports = {
 		"react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
 		"react-hooks/exhaustive-deps": 0,
 		"rest-spread-spacing": ["warn", "never"],
-		// "semi": ["warn", "never", { "beforeStatementContinuationChars": "any" }],
 		"semi": "off",
 		"@typescript-eslint/semi": ["warn", "never", { "beforeStatementContinuationChars": "any" }],
 		"space-before-function-paren": ["warn", "always"],

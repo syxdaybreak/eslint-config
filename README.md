@@ -2,22 +2,38 @@
 
 Usage:
 
-### React.JS
+### TypeScript + React.JS
 
-```js
+Install:
+
+```bash
+pnpm add -D -E eslint eslint-plugin-no-eslint-disable @typescript-eslint/parser @typescript-eslint/eslint-plugin
+touch .eslintrc
+echo "{\n\t\"extends\":\"@syxdaybreak/eslint-config\"\n}\n" > .eslintrc
+```
+
+Preview of `.eslintrc`
+
+```json
 // .eslintrc
 {
    "extends": "@syxdaybreak/eslint-config/with-react"
 }
-// Also required:
-// yarn add --dev -E eslint-plugin-react eslint-plugin-react-hooks
-// or
-// npm i --save-dev -E eslint-plugin-react eslint-plugin-react-hooks
 ```
 
-### Everything else
+### TypeScript
 
-```js
+Install:
+
+```bash
+pnpm add -D -E eslint eslint-plugin-no-eslint-disable eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser @typescript-eslint/eslint-plugin
+touch .eslintrc
+echo "{\n\t\"extends\":\"@syxdaybreak/eslint-config\"\n}\n" > .eslintrc
+```
+
+Preview of `.eslintrc`
+
+```json
 // .eslintrc
 {
    "extends": "@syxdaybreak/eslint-config"
