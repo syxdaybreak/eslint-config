@@ -45,7 +45,7 @@ module.exports = {
 		"curly": 0,
 		"eol-last": "warn",
 		"eqeqeq": "warn",
-		"indent": ["warn", "tab", { "SwitchCase": 1 }],
+		"indent": ["off"],
 		"jsx-quotes": ["warn", "prefer-single"],
 		"key-spacing": ["warn", { "afterColon": true }],
 		"keyword-spacing": "warn",
@@ -99,7 +99,8 @@ module.exports = {
 		"@typescript-eslint/type-annotation-spacing": ["warn", {
 			"after": true,
 			"overrides": { "arrow": { "before": true, "after": true } }
-		}]
+		}],
+		"@typescript-eslint/indent": ["warn", "tab", { "SwitchCase": 1, "ignoredNodes": ["JSXElement", "JSXElement *"] }]
 	},
 	"settings": {
 		"react": {
