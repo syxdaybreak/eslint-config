@@ -78,6 +78,7 @@ module.exports = {
 		"react/jsx-first-prop-new-line": ["warn", "multiline"],
 		"react/jsx-indent": ["warn", "tab"],
 		"react/jsx-max-props-per-line": ["warn", { "maximum": { "multi": 1, "single": 3 } }],
+		"react/jsx-one-expression-per-line": ["warn", { "allow": "single-child" }],
 		"react/jsx-sort-default-props": ["warn", { "ignoreCase": true } ],
 		"react/jsx-tag-spacing": "warn",
 		"react/no-access-state-in-setstate": "error",
