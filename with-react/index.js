@@ -72,7 +72,7 @@ module.exports = {
 		"prefer-const": "warn",
 		"quotes": ["warn", "single", { "allowTemplateLiterals": false }],
 		"react/jsx-boolean-value": ["warn", "never"],
-		"react/jsx-closing-bracket-location": ["warn", "tag-aligned"],
+		"react/jsx-closing-bracket-location": ["warn", "line-aligned"],
 		"react/jsx-curly-brace-presence": ["warn", { "props": "never", "children": "never" }],
 		"react/jsx-curly-spacing": ["warn", { "when": "never", "children": { "when": "always" } }],
 		"react/jsx-first-prop-new-line": ["warn", "multiline"],
