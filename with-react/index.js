@@ -77,6 +77,7 @@ module.exports = {
 		"react/jsx-curly-spacing": ["warn", { "when": "never", "children": { "when": "always" } }],
 		"react/jsx-first-prop-new-line": ["warn", "multiline"],
 		"react/jsx-indent": ["warn", "tab"],
+		"react/jsx-indent-props": ["warn", { "indentMode": "tab", "ignoreTernaryOperator": true }],
 		"react/jsx-max-props-per-line": ["warn", { "maximum": { "multi": 1, "single": 3 } }],
 		"react/jsx-one-expression-per-line": ["warn", { "allow": "single-child" }],
 		"react/jsx-sort-default-props": ["warn", { "ignoreCase": true } ],
